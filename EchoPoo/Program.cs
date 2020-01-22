@@ -7,7 +7,7 @@ class Program
     {
         using (var stdout = Console.OpenStandardOutput())
         {
-            new List<byte> { 0xF0, 0x9F, 0x92, 0xA9, 0xD, 0xA }.ForEach(stdout.WriteByte);
+            new List<byte> { 0xF0, 0x9F, 0x92, 0xA9, 13, 10 }.ForEach(stdout.WriteByte);
         }
     }
 }
